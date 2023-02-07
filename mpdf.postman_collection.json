@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "32c2be82-435e-4f72-8637-98a68448ab76",
+		"name": "mpdf",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25569825"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"pdf name\",\n    \"content\": \"pdf content\",\n    \"header\": \"pdf header\",\n    \"footer\": \"pdf footer\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
